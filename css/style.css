@@ -1,0 +1,98 @@
+* {
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-icons i {
+    font-size: 1.2rem;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background: url(/images/header-img.jpg) no-repeat;
+}
+
+.middleText {
+    top: 33%;
+    left: 17%;
+}
+
+.middleText h3 {
+    font-size: 32px;
+}
+
+.btn {
+    transition: .6s;
+}
+
+.btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.second-sec-box1 {
+    height: 100vh;
+    background: url(/images/game-section.jpg)no-repeat center;
+    background-size: cover;
+}
+
+.second-sec-box2 {
+    height: 100vh;
+    background: url(/images/off-section.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.second-sec-box1 button:hover {
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.second-sec-box2 button:hover {
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.box {
+    position: relative;
+    transition: 0.3s;
+}
+
+.overlay {
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s ease-in !important;
+    opacity: 0;
+}
+
+.overlay i {
+    cursor: pointer;
+}
+
+.addToCart {
+    cursor: pointer;
+}
+
+.box:hover .overlay {
+    top: 65%;
+    left: 25%;
+    opacity: 1;
+}
+
+.inp {
+    min-width: 400px;
+    padding: 6px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
